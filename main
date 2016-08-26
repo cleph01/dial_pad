@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    
+    <!--Local JQuery Script-->
+    <script type="text/javascript" src="dial_pad.js"></script>
+</head>
+    
+<!-- Google API Font Family Raleway -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    
+    <!-- CSS File -->
+    <link rel="stylesheet" type="text/css" href="dial_pad.css">
+    
+    <!-- Font Awesome Style Sheet -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+        
+
+
+<body>
+    <div class="container">
+    
+        <div class="header">
+        
+            <div class="input">
+            
+                <input id="number" type="tel" size="12" maxlength="12">             
+                <label><span style="font-size:x-small;padding-right:10px;">e.g.</span> xxx-xxx-xxxx</label>   
+            
+            </div>
+            <div class="reset">
+                <button>
+                    <i class="fa fa-remove"></i>
+                </button>
+            </div>
+        </div>
+        
+        <div class="body">
+            <div class="row">
+                <div class="col-3">
+                    <button>1</button>
+                </div>
+                <div class="col-3">
+                    <button>2</button>
+                </div>
+                <div class="col-3">
+                    <button>3</button>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-3">
+                    <button>4</button>
+                </div>
+                <div class="col-3">
+                    <button>5</button>
+                </div>
+                <div class="col-3">
+                    <button>6</button>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-3">
+                    <button>7</button>
+                </div>
+                <div class="col-3">
+                    <button>8</button>
+                </div>
+                <div class="col-3">
+                    <button>9</button>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-3">
+                    <button>-</button>
+                </div>
+                <div class="col-3">
+                    <button>0</button>
+                </div>
+                <div class="col-3">
+                    <button>GO</button>
+                </div>
+            </div>
+            
+        </div>
+    
+    </div>
+    
+    
+</body>
+
+</html>
